@@ -48,8 +48,8 @@ Tips: You can easily identify idle resource using [Azure Resource Graph query](h
 - Look for high cost resources like DDoS, Firewall. Consider a lower cost alternative if that is applicable. 
 
 ### Reservation & Saving Plan
-- There are [27 different services on Azure offer reservation] ({{site.url}}/assets/img/costop/reservation-list.png). By using reservation, you can save up to 50% cost. Checkout by going to Azure, then reservations. Choose the service you are interested in, recommendations will show up based on your usage data. Check back frequently since your usage will change over time.
-- Using [*Azure Calculator**](https://azure.microsoft.com/en-us/pricing/calculator/) to understand cost before choosing what to purchase and which option.
+- There are [27 different services on Azure offer reservation]({{site.url}}/assets/img/costop/reservation-list.png). By using reservation, you can save up to 50% cost. Checkout by going to Azure, then reservations. Choose the service you are interested in, recommendations will show up based on your usage data. Check back frequently since your usage will change over time.
+- Using [**Azure Calculator**](https://azure.microsoft.com/en-us/pricing/calculator/) to understand cost before choosing what to purchase and which option.
 - Checkout Azure Saving plan recommendation under Azure advisor or select Saving Plan purchase. Act according to the recommendation to save up to 65% of cost for application resources.
 
 ### Design: Serverless and PaaS services adoption
