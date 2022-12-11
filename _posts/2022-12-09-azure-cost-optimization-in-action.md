@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Azure Cost Optimization in Action
+title: Azure Cost Optimization In Action
 date: 2022-12-09 21:04 +0700
 categories: [Azure, Well-Architected]
 tags: ["Cost optimization"]
