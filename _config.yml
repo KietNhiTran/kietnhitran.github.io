@@ -22,7 +22,7 @@ timezone: Asia/Ho_Chi_Minh
 
 title: Nhi Tran                          # the main title
 
-tagline: A TLNR blog series    # it will display as the sub-title
+tagline: A TLDR blog series    # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
   A short, easy to consume cloud technology and engineering blog site.
