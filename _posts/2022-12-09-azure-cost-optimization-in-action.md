@@ -8,7 +8,7 @@ tags: ["Cost optimization"]
 The reason to run your solution on the cloud is agility and scalability to launch any resource you need and when you need it. It is not always a low-cost option. Therefore, to minimize your spending, cost optimization should be a continuous action. In fact, based on [Flexera Releases 2021 State of the Cloud Report Press Release](https://www.flexera.com/about-us/press-center/flexera-releases-2021-state-of-the-cloud-report), optimize cloud costs is the top initiative for the fifth year in a row. Let’s explore an actionable checklist to reduce your cloud cost.
 
 To be able optimize cost, you need to be able to **observer your expense**, find opportunity to **optimize**, and **control it**. Let’s look at those cost optimization principles in action. 
-
+![Cost Optimization Overview](/assets/img/Cost-Optimization-In-Action.jpg)
 ## Observation in action
 - **Tagging** your resource to identify them in your cost report. 
 - Use **azure cost analysis** understand your cost spend and forecast. Combining with tagging, you can answer questions like what my cost is, where it is spent, in which project, environment or which team.
