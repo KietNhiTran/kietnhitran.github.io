@@ -9,8 +9,6 @@ The reason to run your solution on the cloud is agility and scalability to launc
 
 To be able optimize cost, you need to be able to **observer your expense**, find opportunity to **optimize**, and **control it**. Let’s look at those cost optimization principles in action. 
 
-![Cost Optimization Overview](/assets/img/Cost-Optimization-In-Action.jpg)
-
 ## Observation in action
 - **Tagging** your resource to identify them in your cost report. 
 - Use **azure cost analysis** understand your cost spend and forecast. Combining with tagging, you can answer questions like what my cost is, where it is spent, in which project, environment or which team.
