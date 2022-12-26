@@ -28,7 +28,7 @@ description: >-                        # used by seo meta and the atom feed
   A short, easy to consume cloud technology and engineering blog site.
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
-url: ''
+url: "https://kietnhitran.github.io"
 
 github:
   username: kietnhitran             # change to your github username
