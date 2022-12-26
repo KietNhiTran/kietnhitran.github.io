@@ -9,7 +9,7 @@ The reason to run your solution on the cloud is agility and scalability to launc
 
 To be able optimize cost, you need to be able to **observer your expense**, find opportunity to **optimize**, and **control it**. Let’s look at those cost optimization principles in action. 
 
-![](/assets/img/Cost-Optimization-In-Action.jpg "Cost Opimzation Overview")
+![Cost Optimization Overview](/assets/img/Cost-Optimization-In-Action.jpg)
 
 ## Observation in action
 - **Tagging** your resource to identify them in your cost report. 
