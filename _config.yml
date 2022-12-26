@@ -121,6 +121,9 @@ pwa:
 paginate: 10
 
 # ------------ The following options are not recommended to be modified ------------------
+# Build settings
+markdown: kramdown
+permalink: pretty
 
 kramdown:
   syntax_highlighter: rouge
