@@ -5,7 +5,7 @@ date: 2022-12-27 20:44 +0700
 categories: [Azure, Well-Architected]
 tags: ["Security"]
 ---
-Security is no negotiation. There is no exception to ignore or scarify security in any solution deployed in any cloud. Here is a simple 7 step best practice to implement a secured deployment on Azure. I believe the same principles can apply to any other cloud provider with equivalent.
+Security is no negotiation. There is no exception to ignore or trad-off security with something else in any solution deployment in any cloud. Here is a simple 7 steps best practice to implement a secured deployment on Azure. I believe the same principles can apply to any other cloud provider with equivalent.
 ![Secured Deployment 7 steps best practice](/assets/img/posts/Azure-secured-deployment-best-practices.jpg)
 ## 1. Protect your data at storage level.
 - Put restriction logic at database like row-based access control, RABC control with Azure Active Directory integration.
