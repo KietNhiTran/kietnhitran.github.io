@@ -57,7 +57,7 @@ Tips: You can easily identify idle resource using [Azure Resource Graph query](h
 - You can even optimize operation effort further by leveraging **serverless** technology like Azure Function, Azure Container Apps, App Logic.
 
 ## Control in action
-- In Azure cost management page, set your **azure budget** and **alert** to control cost expense.
+- In Azure cost management page, set your **azure budget** and **alert** to control cost expense. A cost owner should be asigned and review the spend frequently.
 - Using Azure cost optimization **policy** to governance at scale.  For example, specify allowed resource SKU to be prevision in development phrase via [Allowed virtual machine size SKUs policy](https://learn.microsoft.com/en-us/azure/governance/policy/samples/built-in-policies#compute). Check out Azure cost related Policy or build your own to governance as scale.
 
 These are foundation principles that you can run through to get first actions in your cost optimization journey. For each type of resource, it has its own cost optimization guidance. For example: [Optimize compute costs on Azure Kubernetes Service (AKS)](https://learn.microsoft.com/en-us/training/modules/aks-optimize-compute-costs/); [Azure Database for PostgreSQL and cost optimization](https://learn.microsoft.com/en-us/azure/architecture/framework/services/data/azure-db-postgresql/cost-optimization). Therefore, besides the general principles, frequently check on in-deep technique of each resource type used in your deployment architecture.
