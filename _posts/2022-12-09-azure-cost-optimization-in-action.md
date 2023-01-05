@@ -27,7 +27,7 @@ To be able optimize cost, you need to be able to **observer your expense**, find
     - Relax high cost security features like: WAF on App gateway; DDoS; Firewall, but still keep everything unreachable via internet.
 - Either terminate test environment when not using or stop all idle resources.
 - If you are using App Service, consider using Premium V3 over Pv2 with comparable configuration with 20% saving (check the App service pricing page for detail).
-- Using [Dev/Test subscription] (https://aka.ms/devtest) (if applicable) to save up to 60% cost.
+- Using [Dev/Test subscription](https://aka.ms/devtest) (if applicable) to save up to 60% cost.
 
 ### Reduce Waste
 - Remove all unattached resources like unattached managed disk, public IPs, network interface. 
@@ -41,7 +41,7 @@ Tips: You can easily identify idle resource using [Azure Resource Graph query](h
 - There are four different tiers in Azure storage account. You might be surprised how much you can save when you organize data into tiers when workload has a lot of blob data. So, take action like:
     - Check unmodified blob for a long time then move it to lower cost tier. You can do this via setting up blob inventory report for observation and then take action
     - If you know your data access frequency, use data lifecycle management to move blob data between tiers.
-    - Azure offers the ability to boost disk storage IOPS and MB/s performance. Consider using disk bursting for some scenarios such as improve startup times, handle batch jobs, traffic spikes https://docs.microsoft.com/azure/virtual-machines/disk-bursting
+    - Azure offers the ability to boost disk storage IOPS and MB/s performance. Consider using disk bursting for some scenarios such as improve startup times, handle batch jobs, traffic spikes, [Azure VM disk bursting](https://docs.microsoft.com/azure/virtual-machines/disk-bursting)
     
 ### Network cost optimization
 - Check for cross region data transfer cost and consider if that is something you should act on.
@@ -60,6 +60,6 @@ Tips: You can easily identify idle resource using [Azure Resource Graph query](h
 - In Azure cost management page, set your **azure budget** and **alert** to control cost expense.
 - Using Azure cost optimization **policy** to governance at scale.  For example, specify allowed resource SKU to be prevision in development phrase via [Allowed virtual machine size SKUs policy](https://learn.microsoft.com/en-us/azure/governance/policy/samples/built-in-policies#compute). Check out Azure cost related Policy or build your own to governance as scale.
 
-These are foundation principles that you can run through to get first actions in your cost optimization journey. For each type of resource, it has its own cost optimization guidance. For example: [Optimize compute costs on Azure Kubernetes Service (AKS)] (https://learn.microsoft.com/en-us/training/modules/aks-optimize-compute-costs/); [Azure Database for PostgreSQL and cost optimization](https://learn.microsoft.com/en-us/azure/architecture/framework/services/data/azure-db-postgresql/cost-optimization). Therefore, besides the general principles, frequently check on in-deep technique of each resource type used in your deployment architecture.
+These are foundation principles that you can run through to get first actions in your cost optimization journey. For each type of resource, it has its own cost optimization guidance. For example: [Optimize compute costs on Azure Kubernetes Service (AKS)](https://learn.microsoft.com/en-us/training/modules/aks-optimize-compute-costs/); [Azure Database for PostgreSQL and cost optimization](https://learn.microsoft.com/en-us/azure/architecture/framework/services/data/azure-db-postgresql/cost-optimization). Therefore, besides the general principles, frequently check on in-deep technique of each resource type used in your deployment architecture.
 
 Saving costs is important, but it is not a unique factor affecting your decision. Your design should take in [tradeoffs between cost optimization, security, reliability, performance and operability](https://learn.microsoft.com/en-us/azure/architecture/framework/cost/tradeoffs). The attached link is a short documentation which would explain this concept perfectly clearly.
